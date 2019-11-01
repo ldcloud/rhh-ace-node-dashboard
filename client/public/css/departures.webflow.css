@@ -1,0 +1,207 @@
+.board-div {
+  display: inline-block;
+  width: 100%;
+  max-width: 980px;
+  min-height: 200px;
+  background-color: #313131;
+}
+
+.section-general {
+  text-align: center;
+}
+
+.body {
+  background-color: #1b1b1b;
+  font-family: 'Dotto deluxeneu', sans-serif;
+  color: #ffad00;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.h1 {
+  font-family: 'Droid Sans', sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.titles {
+  height: 40px;
+  margin-top: 16px;
+  font-family: 'Droid Sans', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.title_airline {
+  display: inline-block;
+  margin-left: 15px;
+  float: left;
+  text-align: left;
+}
+
+.title_code {
+  display: inline-block;
+  margin-left: 110px;
+  float: left;
+  text-align: left;
+}
+
+.title_time {
+  display: inline-block;
+  margin-left: 80px;
+  float: left;
+  text-align: left;
+}
+
+.title_expected {
+  display: inline-block;
+  margin-left: 70px;
+  float: left;
+}
+
+.title_plat {
+  display: inline-block;
+  margin-left: 30px;
+  float: left;
+}
+
+.title_status {
+  display: inline-block;
+  margin-left: 35px;
+  float: left;
+}
+
+.title_destination {
+  display: inline-block;
+  margin-left: 20px;
+  float: left;
+}
+
+.title_terminal {
+  display: inline-block;
+  margin-left: 30px;
+  float: left;
+}
+
+
+.train_item {
+  overflow: hidden;
+  max-height: 40px;
+  min-height: 32px;
+  margin-bottom: 8px;
+  padding-right: 12px;
+  padding-left: 12px;
+  background-color: #3a3831;
+}
+
+.board_message {
+  display: block;
+  overflow: visible;
+  width: 70px;
+  max-height: 40px;
+  max-width: 380px;
+  float: left;
+  color: #ffc200;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.board_message._2 {
+  width: 100px;
+  max-width: 100px;
+  float: left;
+}
+
+.board_message._3 {
+  overflow: visible;
+  width: 120px;
+  max-width: 120px;
+  float: left;
+}
+
+.board_message._4 {
+  overflow: visible;
+  width: 140px;
+  max-width: 140px;
+  float: left;
+}
+
+.board_message._5 {
+  overflow: visible;
+  width: 160px;
+  max-width: 160px;
+  float: left;
+}
+
+.board_message._6 {
+  overflow: visible;
+  width: 180px;
+  max-width: 180px;
+  float: left;
+}
+
+.test_div {
+  display: inline-block;
+  width: 100%;
+  max-width: 500px;
+  min-height: 200px;
+  background-color: #5a99c3;
+}
+
+.board_message_container {
+  display: block;
+  height: 40px;
+}
+
+html.w-mod-js *[data-ix="blinking"] {
+  opacity: 0.9;
+}
+
+html.w-mod-js *[data-ix="upate-on-click"] {
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+@media (max-width: 479px) {
+  .titles {
+    font-size: 14px;
+  }
+  .title_expected {
+    margin-left: 15px;
+  }
+  .title_plat {
+    margin-left: 58px;
+  }
+  .board_message {
+    max-width: 207px;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .board_message._2 {
+    max-width: 30px;
+  }
+  .board_message._3 {
+    max-width: 55px;
+  }
+  .test_div {
+    background-color: #d61e1e;
+  }
+}
+
+@font-face {
+  font-family: 'Dsdots';
+  src: url('../fonts/dsdots.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Dotto deluxeneu';
+  src: url('../fonts/Dotto-DeluxeNeu.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
